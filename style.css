@@ -1,0 +1,611 @@
+body{
+    font-family: "HM Sans Regular";
+    background-color: #FAF9F8;
+}
+
+header{
+    padding: 16px 32px;
+}
+
+header .header_1{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    margin-bottom: 32px;
+}
+
+header .header_1 .left ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+header .header_1 .left li{
+    margin-right: 16px;
+    font-weight: 400;
+}
+
+header .header_1 .left a{
+    text-decoration: none;
+    color: #222222;
+    font-size: 13px;
+}
+
+
+header .header_1 .left img{
+    border: none;
+    margin-top: 5px;
+}
+
+header .header_1 .left button{
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+
+header .header_1 .left .fa-ellipsis{
+    font-size: 21px;
+}
+
+header .header_1 .left button:hover .fa-ellipsis{
+    color: red;
+}
+
+
+header .header_1 .middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .header_1 .middle img{
+    height: 44px;
+    width: 63.65px;
+}
+
+.header .right{
+}
+
+.header_1 .right ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header_1 .right ul li{
+    display: flex;
+    align-items: center;
+    margin-right: 12px;
+}
+
+.header_1 .right a{
+    color: #222222;
+    text-decoration: none;
+}
+
+#right_icon{
+    margin-right: 12px;
+    font-size: 18px;
+}
+
+.header_1 .right span{
+    font-size: 13px;
+}
+.header_2{
+    display: grid;
+    grid-template-columns: 77% 23%;
+}
+
+.header_2 .left ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding-right: 218px;
+}
+
+.header_2 .left ul li{
+    padding: 0px 16px;
+}
+
+.header_2 .left ul a{
+    text-decoration: none;
+    color: #222222;
+    font-size: 16px;
+}
+
+main{
+    height: 2529.27px;
+    width: 1008px;
+    margin: 0px 252.4px 24px;
+    padding: 0px 24px;
+}
+
+/*------------------------------------------------------------------------main-----------------------------------------------------------*/
+
+main .heading{
+    display: flex;
+    justify-content: center;
+}
+
+main .heading p{
+    padding: 20px 94px 20px 35px;
+    font-size: 13px;
+}
+
+main .section_1{
+    height:674px;
+}
+
+main .section_1 img,.section_2 img{
+    height: 640px;
+    width: 960px;
+}
+
+main .section_1 .image_1 .price_tag{
+    display: flex;
+    width: 143px;
+    position: relative;
+    z-index: 2;
+    bottom: 614px;
+    left: 592px
+}
+
+main .section_1 .image_1 .part_1{
+    position: relative;
+    z-index: 3;
+    bottom: 9px;
+    left: 5px;
+}
+main .section_1 .image_1 .part_1 p{
+    font-size: 24px;
+    color: #292727;
+}
+
+main .section_1 .price_tag .part_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    position: relative;
+    z-index: 4;
+    background-color: #292727;
+    height: 74px;
+    width: 117.9px;
+}
+
+main .section_1 .image_1 .price_tag a{
+        text-decoration: none;
+        color: #ffffff;
+}
+
+main .section_1 .title{
+    width: 23em;
+    position: relative;
+    z-index: 3;
+    bottom: 300px;
+    left: 304px;
+}
+
+main .section_1 .button{
+    width: 12em;
+    position: relative;
+    z-index: 3;
+    bottom: 310px;
+    left: 441px;
+}
+
+main .section_1 .title h2{
+    font-size: 42px;
+}
+
+main .section_1 .button button{
+    border: none;
+    background: black;
+    color: #ffffff;
+    padding: 8px;
+    font-size: 16px;
+}
+
+/*-----------------------------------------------section_2--------------------------------------------------------*/
+
+main .section_2{
+    height:674px;
+}
+
+main .section_2 .image_1{
+    height:674px;
+}
+
+main .section_2 .image_1 .price_tag_2{
+    display: flex;
+    width: 260px;
+    position: relative;
+    z-index: 2;
+    bottom: 299px;
+    left: 661px;
+}
+
+main .section_2 .image_1 .part_1{
+    position: relative;
+    z-index: 3;
+    bottom: 9px;
+    left: 5px;
+}
+main .section_2 .image_1 .part_1 p{
+    font-size: 24px;
+    color: #292727;
+}
+
+main .section_2 .price_tag_2 .part_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    position: relative;
+    z-index: 4;
+    background-color: #292727;
+    height: 74px;
+    width: 233.9px;
+}
+
+main .section_2 .image_1 .price_tag_2 a{
+        text-decoration: none;
+        color: #ffffff;
+}
+
+main .section_2 .image_1 .title_and_button{
+    color: white;
+    position: relative;
+    padding: 40px 0px 40px 40px;
+    height: 163.5px;
+    width: 440px;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    bottom: 350px;
+}
+
+main .section_2 .title_and_button h2{
+    font-size: 42px;
+    margin: 0px 0px 10px 0px;
+}
+
+main .section_2 .title_and_button h3{
+    font-size: 14px;
+    margin: 0px;
+}
+
+main .section_2 .title_and_button .button{
+    padding: 16px 0px;
+}
+
+main .section_2 .title_and_button button{
+    padding: 8px;
+    font: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    cursor: pointer;
+}
+
+
+/*-----------------------------------------------section_3--------------------------------------------------------*/
+
+.section_3 .heading h2{
+    font-size: 20px;
+    margin: 0px 0px 8px 0px;
+    font-weight: 500;
+}
+
+.section_3 .heading {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.section_3 .heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.section_3 .dress_section{
+    display: flex;
+    align-items: center;
+}
+
+.section_3 .middle_content{
+    padding: 0px 28px;
+}
+
+.section_3 .t_shirt{
+    display: grid;
+    grid-template-columns: 154px 154px 154px 154px 154px 154px;
+
+}
+
+.section_3 .t_shirt .img{
+    width: 124px;
+    height: 186px;
+    padding: 0px 12px;
+}
+
+.section_3 .t_shirt img{
+    width: 124px;
+    height: 186px;
+}
+
+.section_3 .t_shirt img{
+    width: 124px;
+    height: 186px;
+}
+
+.section_3 .name_and_price{
+    display: flex;
+}
+
+.section_3 .name_and_price{
+    padding-left: 16px;
+}
+
+.section_3 .name_and_price a,p{
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.section_3 .name_and_price .icon{
+    display: flex;
+}
+
+.section_3 .cirlce{
+    margin-left: 3px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+#c_1{
+    background-color: rgb(0, 0, 0);
+}
+#c_2{
+    background-color: rgb(65, 65, 64);
+}
+#c_4{
+    background-color: rgb(203, 186, 190);
+}
+#c_3{
+    background-color: rgb(159, 188, 188);
+}
+
+.section_3 .left_arrow{
+    position: relative;
+    top: 23px;
+    left: 11px;
+}
+
+.section_3 .right_arrow{
+    position: relative;
+    top: 23px;
+    right: 23px;
+}
+
+/*-----------------------------------------------section_4--------------------------------------------------------*/
+
+.section_4{
+    margin-top: 24px;
+}
+
+.section_4 .img {
+    height: 641px;
+}
+
+.section_4 .img img{
+    height: 640px;
+    width: 960px;
+}
+
+.section_4 .price_tag_3{
+    position: relative;
+    display: flex;
+    bottom: 403px;
+    left: 170px;
+}
+
+.section_4 .part_2{
+    background-color: #292727;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    width: 117px;
+    height: 74px;
+}
+
+.section_4 .part_2 a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.section_4 .part_1 p{
+    color: #292727;
+    font-size: 23px;
+    position: relative;
+    bottom: 0px;
+    right: 4px;
+}
+
+.section_4 .title_and_button{
+    position: relative;
+}
+
+.section_4 .title_and_button{
+    position: relative;
+    bottom: 265px;
+    left: 265px;
+    width: 469px;
+}
+
+.section_4 .title_and_button h2{
+    margin: 0px 0px 10px 0px;
+    position: relative;
+    width: 100%;
+    font-size:42px;
+}
+
+.section_4 .title_and_button button{
+    padding: 8px;
+    position: relative;
+    left: 171px;
+    background-color: black;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/*-----------------------------------------------section_5--------------------------------------------------------*/
+
+.section_5 {
+    margin-top: 24px;
+    height: 132.2px;
+    width: 960px;
+    
+}
+
+.section_5 .img{
+    width: 100%;
+    height: 132.2px;
+}
+
+.section_5 img{
+    width: 100%;
+    height: 132.2px;
+}
+
+.section_5 .img .inside_img{
+    display: flex;
+    align-items: center;
+    width: 35%;
+    height: 116.2px;
+    position: relative;
+    bottom: 140px;
+    left: 315px;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+.section_5 h3{
+    padding-top: 22px;
+    margin: 0px;
+    font-size: 15px;
+}
+
+.section_5 p{
+    margin: 0px;
+    padding-top: 4px;
+    padding-bottom: 12px;
+}
+
+.section_5 button{
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+/*-----------------------------------------------footer--------------------------------------------------------*/
+
+.footer{
+   background-color: rgb(228, 228, 228);
+    padding: 64px 32px;
+}
+
+.footer_1{
+    margin: 0px 244.4px;
+}
+
+.footer_1 .box_1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 16px;
+    margin-bottom: 16px;
+}
+
+#inner_section{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_1 .box_1 h4{
+    font-size: 13px;
+    color: #222222;
+}
+
+.footer_1 .box_1 a{
+    padding-top: 8px;
+    text-decoration: none;
+    color: #222222;
+    font-size: 11px;
+}
+
+.footer_1 .section_4 {
+    font-size: 13px;
+    color: #222222;
+}
+
+.footer_1 .section_4 a{
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.footer_1 .section_4 .fa-arrow-right{
+    padding-left: 5px;
+}
+.footer_1 .box_2 .icon{
+    display: flex;
+    justify-content: center;
+    column-gap: 22px;
+    padding-bottom: 16px;
+}
+
+#icon_{
+    font-size: 16px;
+}
+
+.footer_1 .box_2{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_1 .box_2 .span{
+    text-align: center;
+}
+
+.footer_1 .box_2 span{
+    font-size: 11px;
+}
+
+.footer_1 .box_2 .logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
+
+.footer_1 .box_2 img{
+    height: 26px;
+    width: 39.8px;
+}
+
+.footer_1 .box_2 button{
+    position: relative;
+    left: 430px;
+    width: 79px;
+    font-size: 16px;
+    border: none;
+    padding:  4px 0px;
+    background-color: rgb(228, 228, 228);;
+}
